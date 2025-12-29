@@ -51,5 +51,5 @@ Instead of scraping all text from the dictionary page, the script specifically t
 ---
 
 ## 📄 License
-MIT License. See LICENSE for details.
+MIT License. See [LICENSE](https://github.com/DYPG68/cambridge-pronunciation-tool/blob/main/LICENSE) for details.
 Data is fetched in real-time from [Cambridge Dictionary](https://dictionary.cambridge.org/).
