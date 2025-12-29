@@ -22,24 +22,38 @@ A lightweight, real-time web application built with Python and Streamlit to help
 
 ---
 
+## 🚀 Live Demo
+Try the app right now! No installation needed.
+
+🔗 **Live Version:** [https://cambridge-pronunciation-tool-bsquuadxwt5ew7zdr776bt.streamlit.app](https://cambridge-pronunciation-tool-bsquuadxwt5ew7zdr776bt.streamlit.app)
+
+(Hosted for free on Streamlit Community Cloud)
+
+---
+
 ## 📦 Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/DYPG68/cambridge-pronunciation-tool](https://github.com/DYPG68/cambridge-pronunciation-tool)
+    git clone https://github.com/DYPG68/cambridge-pronunciation-tool.git
     cd cambridge-pronunciation-tool
+    ```
+2.  **(Recommended) Create and activate a virtual environment:**
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate    # On Windows
     ```
 
 2.  **Install dependencies:**
     ```bash
-    pip install streamlit beautifulsoup4 requests
+    pip install -r requirements.txt
     ```
-
-3.  **Run the application:**
+    (Alternatively: pip install streamlit beautifulsoup4 requests)
+3.  **Launch the app:**
     ```bash
     streamlit run app.py
     ```
-
+    Your browser will automatically open to a local host
 ---
 
 ## 🔍 How It Works
