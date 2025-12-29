@@ -51,5 +51,5 @@ Instead of scraping all text from the dictionary page, the script specifically t
 ---
 
 ## 📄 License
-
-This project is intended for **personal use and educational purposes only**. Data is fetched in real-time from [Cambridge Dictionary](https://dictionary.cambridge.org/).
+MIT License. See LICENSE for details.
+Data is fetched in real-time from [Cambridge Dictionary](https://dictionary.cambridge.org/).
