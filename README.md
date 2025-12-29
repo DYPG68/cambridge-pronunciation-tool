@@ -54,7 +54,6 @@ Try the app right now! No installation needed.
     ```bash
     streamlit run app.py
     ```
-    Your browser will automatically open to a local host
 ---
 
 ## 🔍 How It Works
