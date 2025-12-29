@@ -41,7 +41,8 @@ Try the app right now! No installation needed.
 2.  **(Recommended) Create and activate a virtual environment:**
     ```bash
     py -m venv venv
-    venv\Scripts\activate    # On Windows
+    venv\Scripts\activate    # Windows
+    source venv/bin/activate  # Mac/Linux
     ```
 
 2.  **Install dependencies:**
@@ -65,5 +66,4 @@ Instead of scraping all text from the dictionary page, the script specifically t
 ---
 
 ## 📄 License
-MIT License. See [LICENSE](https://github.com/DYPG68/cambridge-pronunciation-tool/blob/main/LICENSE) for details.
-Data is fetched in real-time from [Cambridge Dictionary](https://dictionary.cambridge.org/).
+Distributed under the MIT License. See [LICENSE](https://github.com/DYPG68/cambridge-pronunciation-tool/blob/main/LICENSE) for details.
