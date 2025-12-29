@@ -26,7 +26,7 @@ A lightweight, real-time web application built with Python and Streamlit to help
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/cambridge-pronunciation-tool.git](https://github.com/yourusername/cambridge-pronunciation-tool.git)
+    git clone [https://github.com/DYPG68/cambridge-pronunciation-tool](https://github.com/DYPG68/cambridge-pronunciation-tool)
     cd cambridge-pronunciation-tool
     ```
 
@@ -53,7 +53,3 @@ Instead of scraping all text from the dictionary page, the script specifically t
 ## 📄 License
 
 This project is intended for **personal use and educational purposes only**. Data is fetched in real-time from [Cambridge Dictionary](https://dictionary.cambridge.org/).
-
----
-
-**Built with ❤️ for English Learners.**
