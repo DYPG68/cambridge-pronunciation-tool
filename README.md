@@ -1,37 +1,59 @@
-Cambridge Dictionary Pronunciation Tool
-A Python-based web application that retrieves real-time International Phonetic Alphabet (IPA) transcriptions and high-quality audio pronunciations from the Cambridge Dictionary.
+# 🇬🇧 Cambridge Dictionary Pronunciation Tool
 
-🚀 Features
-Dual Pronunciation: Provides both UK and US IPA transcriptions.
+A lightweight, real-time web application built with Python and Streamlit to help English learners retrieve accurate **IPA (International Phonetic Alphabet)** transcriptions and audio pronunciations directly from the Cambridge Dictionary.
 
-Native Audio: Streams .mp3 pronunciation files directly from Cambridge's servers.
+---
 
-Targeted Scraping: Uses refined CSS selectors to ensure accurate data extraction for specific headwords.
+## 🚀 Features
 
-Responsive UI: Built with Streamlit for a clean, interactive user experience.
+* **Dual Dialect Support:** View both UK (British) and US (American) IPA transcriptions side-by-side.
+* **Native Audio Streaming:** High-quality `.mp3` audio files streamed directly from Cambridge Dictionary servers.
+* **Precision Scraping:** Utilizes targeted CSS selectors to avoid "secondary word" noise (e.g., ensuring you get the pronunciation for "suit" rather than a related idiom).
+* **Minimalist UI:** Clean, responsive interface optimized for quick lookups.
 
-🛠️ Tech Stack
-Language: Python
+---
 
-Interface: Streamlit
+## 🛠️ Tech Stack
 
-Scraping: BeautifulSoup4, Requests
+* **Frontend:** [Streamlit](https://streamlit.io/)
+* **Backend Logic:** [Python 3.x](https://www.python.org/)
+* **Web Scraping:** [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) & [Requests](https://requests.readthedocs.io/)
+* **Data Parsing:** HTML/CSS Selector logic (DOM traversing)
 
-Parsing: HTML/CSS Selector logic
+---
 
-📦 Installation
-Clone the repository:
+## 📦 Installation & Setup
 
-Bash
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/yourusername/cambridge-pronunciation-tool.git](https://github.com/yourusername/cambridge-pronunciation-tool.git)
+    cd cambridge-pronunciation-tool
+    ```
 
-git clone https://github.com/yourusername/cambridge-pronunciation-tool.git
-Install dependencies:
+2.  **Install dependencies:**
+    ```bash
+    pip install streamlit beautifulsoup4 requests
+    ```
 
-Bash
+3.  **Run the application:**
+    ```bash
+    streamlit run app.py
+    ```
 
-pip install streamlit beautifulsoup4 requests
-Run the app:
+---
 
-Bash
+## 🔍 How It Works
 
-streamlit run app.py
+This tool solves a common web-scraping challenge: **Data Disambiguation**. 
+
+Instead of scraping all text from the dictionary page, the script specifically targets the `.pos-header` class. This ensures that the IPA retrieved belongs strictly to the main headword, preventing the tool from picking up phonetic symbols of related phrases or sidebar suggestions. It filters for `audio/mpeg` sources to ensure cross-browser audio compatibility.
+
+---
+
+## 📄 License
+
+This project is intended for **personal use and educational purposes only**. Data is fetched in real-time from [Cambridge Dictionary](https://dictionary.cambridge.org/).
+
+---
+
+**Built with ❤️ for English Learners.**
