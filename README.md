@@ -1,4 +1,4 @@
-# 🇬🇧 Cambridge Dictionary Pronunciation Tool
+# Cambridge Dictionary Pronunciation Tool
 
 A lightweight, real-time web application built with Python and Streamlit to help English learners retrieve accurate **IPA (International Phonetic Alphabet)** transcriptions and audio pronunciations directly from the Cambridge Dictionary.
 
@@ -40,7 +40,7 @@ Try the app right now! No installation needed.
     ```
 2.  **(Recommended) Create and activate a virtual environment:**
     ```bash
-    python -m venv venv
+    py -m venv venv
     venv\Scripts\activate    # On Windows
     ```
 
