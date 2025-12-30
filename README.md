@@ -16,7 +16,6 @@ A lightweight, real-time web application built with Python and Streamlit to help
 ## 🛠️ Tech Stack
 
 * **Frontend:** [Streamlit](https://streamlit.io/)
-* **Backend Logic:** [Python 3.x](https://www.python.org/)
 * **Web Scraping:** [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/) & [Requests](https://requests.readthedocs.io/)
 * **Data Parsing:** HTML/CSS Selector logic (DOM traversing)
 
