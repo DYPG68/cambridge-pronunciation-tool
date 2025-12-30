@@ -22,6 +22,15 @@ A lightweight, real-time web application built with Python and Streamlit to help
 
 ---
 
+## 🔍 How It Works
+
+This tool solves a common web-scraping challenge: **Data Disambiguation**. 
+
+Instead of scraping all text from the dictionary page, the script specifically targets the `.pos-header` class. This ensures that the IPA retrieved belongs strictly to the main headword, preventing the tool from picking up phonetic symbols of related phrases or sidebar suggestions. It filters for `audio/mpeg` sources to ensure cross-browser audio compatibility.
+
+---
+
+
 ## 🚀 Live Demo
 Try the app right now! No installation needed.
 
@@ -54,13 +63,6 @@ Try the app right now! No installation needed.
     ```bash
     streamlit run app.py
     ```
----
-
-## 🔍 How It Works
-
-This tool solves a common web-scraping challenge: **Data Disambiguation**. 
-
-Instead of scraping all text from the dictionary page, the script specifically targets the `.pos-header` class. This ensures that the IPA retrieved belongs strictly to the main headword, preventing the tool from picking up phonetic symbols of related phrases or sidebar suggestions. It filters for `audio/mpeg` sources to ensure cross-browser audio compatibility.
 
 ---
 
